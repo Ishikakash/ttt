@@ -1,0 +1,117 @@
+/* src/Profile.css */
+
+/* Existing styles */
+
+.profile-container {
+  position: relative;
+  text-align: center;
+}
+
+.background-image {
+  background-size: cover;
+  background-position: center;
+  height: 300px; /* Adjust the height as needed */
+}
+
+.profile-image {
+  position: absolute;
+  bottom: 0;
+  left: 5%; /* Adjust the left spacing as needed */
+  border-radius: 50%; /* Make it a circle */
+  width: 200px; /* Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
+  object-fit: cover;
+  border: 2px solid #fff; /* Add a border if desired */
+  padding-bottom: 10px;
+  margin-bottom: 60px;
+}
+
+.profile-name {
+  margin-bottom: 0px;
+  font-size: 1.5rem;
+  color: #333;
+  padding-right: 700px;
+}
+
+.profile-description {
+  margin-top: 1px;
+  font-size: 1rem;
+  color: black;
+  padding-right: 700px;
+}
+
+/* Media query for screens with a maximum width of 600px */
+@media only screen and (max-width: 600px) {
+  .background-image {
+      height: 150px; /* Adjust the height for smaller screens */
+  }
+
+  .profile-image {
+      width: 150px; /* Adjust the width for smaller screens */
+      height: 150px; /* Adjust the height for smaller screens */
+      left: 50%; /* Center the profile image */
+      transform: translateX(-50%); /* Center the profile image */
+  }
+
+  .profile-name {
+      font-size: 1.2rem; /* Adjust the font size for smaller screens */
+  }
+
+  .profile-description {
+      font-size: 0.10rem; /* Adjust the font size for smaller screens */
+      padding-left: 100px;
+  }
+  .profile-stat-box {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    color: grey;
+    padding: 10px;
+    
+  }
+  .profile-stats{
+    padding-right: 720px;
+  }
+  .stat-number {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    border: 1px solid grey; 
+    padding: 5px; 
+    color: grey;
+    border-radius: 13px;
+  }
+  
+  .stat-label {
+    font-size: 0.8rem;
+    color: grey;
+    margin: 0;
+  }
+}
+.profile-stat-box {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  color: grey;
+  padding: 10px;
+  
+}
+.profile-stats{
+  padding-right: 720px;
+}
+.stat-number {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+  border: 1px solid grey; 
+  padding: 5px; 
+  color: grey;
+  border-radius: 13px;
+}
+
+.stat-label {
+  font-size: 0.8rem;
+  color: grey;
+  margin: 0;
+  font-weight: bold;
+}

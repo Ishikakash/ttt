@@ -1,0 +1,191 @@
+/* src/Hero.css */
+
+/* .bg-gradient {
+  height: 3px;
+  background: linear-gradient(to right, #fbbf24, #f59e0b);
+} */
+
+/* .max-width-container {
+  max-width: 56rem;
+  margin: auto;
+} */
+
+.hero-image {
+  object-position: top;
+  width: 100%;
+  height: 300px;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.profile-image {
+  position: relative;
+  max-height: 200px;
+  border-radius: 9999px;
+  margin-top: -12px;
+  padding-left: 10px;
+}
+
+.info-container {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 1.125rem;
+}
+
+.name {
+  margin-right: 0.5rem;
+}
+
+.username {
+  color: #718096;
+  margin-top: -0.25rem;
+}
+
+.stats {
+  display: flex;
+  flex-direction: row;
+  color: #4a5568;
+  margin-top: 0.5rem;
+}
+
+.stat-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 72px;
+  margin-right: 1rem;
+}
+
+.stat-number {
+  padding: 0.25rem 0.5rem;
+  font-weight: 800;
+}
+
+.stat-label {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  margin-top: 0.25rem;
+}
+
+.bio-section {
+  color: #4a5568;
+  margin-top: 1.5rem;
+  padding: 0 1.5rem;
+}
+
+.bio {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.github-link {
+  color: #319795;
+  transition: color 0.3s ease;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  margin-top: 0.5rem;
+  display: inline-block;
+}
+
+.github-link:hover {
+  color: #38a169;
+}
+
+.social-stats {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+  padding: 0 1.5rem;
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.stat-number {
+  margin-left: 0.5rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.text-yellow-400 {
+  color: #f59e0b;
+}
+
+.fa-eye {
+  fill: gray;
+}
+
+.fa-heart {
+  fill: red;
+}
+
+/* Media query for mobile phones */
+@media (max-width: 768px) {
+  .bg-gradient {
+    height: 1px;
+  }
+
+  .max-width-container {
+    padding: 0 1rem;
+  }
+
+  .hero-image {
+    max-height: 200px;
+  }
+
+  .flex-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-image {
+    max-height: 100px;
+    margin-top: 0;
+  }
+
+  .info-container {
+    margin-left: 0;
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  .stats {
+    flex-direction: column;
+    margin-top: 0.5rem;
+  }
+
+  .stat-box {
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  .bio-section {
+    margin-top: 1rem;
+    padding: 0 1rem;
+  }
+
+  .social-stats {
+    margin-top: 1rem;
+    padding: 0 1rem;
+  }
+
+  .stat {
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+}

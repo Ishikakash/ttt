@@ -1,0 +1,44 @@
+/* src/Navbar.css */
+
+/* Set your mobile breakpoint */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+.navbar .left-side {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .left-side .circle {
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.navbar .right-side button {
+  background-color: orange;
+  color: black;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.banner-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}

@@ -1,0 +1,89 @@
+/* src/post.css */
+
+.border-b {
+    border-bottom: 1px solid #e2e8f0;
+  }
+  
+  .py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .justify-between {
+    justify-content: space-between;
+  }
+  
+  .mb-2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .font-bold {
+    font-weight: 700;
+  }
+  
+  .text-lg {
+    font-size: 1.125rem;
+  }
+  
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  
+  .text-sm {
+    font-size: 0.875rem;
+  }
+  
+  .text-yellow-400 {
+    color: #f59e0b;
+  }
+  
+  .my-6 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .text-gray-500 {
+    color: #718096;
+  }
+  
+  .text-gray-400 {
+    color: #4a5568;
+  }
+  
+  .flex-col {
+    flex-direction: column;
+  }
+  
+  .md\\:flex-row {
+    flex-direction: row !important;
+  }
+  
+  .md\\:justify-between {
+    justify-content: space-between !important;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+  }
+  
+  .text-teal-600 {
+    color: #319795;
+  }
+  
+  .py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .border-b {
+    border-bottom: 1px solid #e2e8f0;
+  }
+  
